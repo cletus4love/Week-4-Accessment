@@ -1,0 +1,9 @@
+fun main (){
+    println(evenly(2,4,6))
+    println(evenly(6,4,2))
+    println(evenly(4,6,3))
+}
+fun evenly (a:Int, b:Int, c:Int):Boolean{
+    if(b-a == c-b) return true
+    return false
+}
